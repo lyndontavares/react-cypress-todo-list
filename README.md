@@ -7,22 +7,22 @@ Exemplo de aplicação React com Cypress.io
 ## Instalação
 
 ```bash
-$ git clone https://github.com/lyndontavares/react-cypress-todo-list
-$ cd react-cypress-todo-list
-$ yarn install
+git clone https://github.com/lyndontavares/react-cypress-todo-list
+cd react-cypress-todo-list
+yarn install
 ```
 
 Adicionar Cypress
 
 ```bash
-$ yarn add --dev cypress
+yarn add --dev cypress
 ```
 
 ## Iniciar App e Cypress
 
 ```bash
-$npm run start
-$ yarn cypress open
+npm run start
+yarn cypress open
 ```
 
 ## Github
