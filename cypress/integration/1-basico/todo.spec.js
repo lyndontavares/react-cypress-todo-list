@@ -22,7 +22,6 @@ describe('example to-do app', () => {
   })
 
   it('Verifica adição de item', () => {
-    // We'll store our item text in a variable so we can reuse it
     const newItem = 'Feed the cat'
 
     // Vamos pegar o elemento de entrada e usar o comando `type` para
