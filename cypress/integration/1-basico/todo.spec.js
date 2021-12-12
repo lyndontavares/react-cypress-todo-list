@@ -7,7 +7,7 @@ describe('example to-do app', () => {
     cy.visit('http://localhost:3000/')
   })
 
-  it('displays two todo items by default', () => {
+  it('Verifica se lista de itens contém 3 itens por padrão', () => {
     // Usamos o comando `cy.get ()` para obter todos os elementos que correspondem ao seletor.
     // Então, usamos `deveria` para afirmar que existem dois itens correspondentes,
     // quais são os dois itens padrão.
@@ -21,7 +21,7 @@ describe('example to-do app', () => {
     cy.get('tr').last().should('have.text', 'Fill Gas')
   })
 
-  it('can add new todo items', () => {
+  it('Verifica adição de item', () => {
     // We'll store our item text in a variable so we can reuse it
     const newItem = 'Feed the cat'
 
@@ -45,7 +45,7 @@ describe('example to-do app', () => {
       .should('have.text', newItem)
   })
 
-  it('can check off an item as completed', () => {
+  it('Verifica título da App', () => {
   // Além de usar o comando `get` para obter um elemento por seletor,
     // também podemos usar o comando `contains` para obter um elemento por seu conteúdo.
     // No entanto, isso resultará em <label>, que é o elemento de nível mais baixo que contém o texto.

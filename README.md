@@ -14,11 +14,15 @@ Adicionar Cypress
 
 ```bash
 $ yarn add --dev cypress
+```
+
+## Iniciar App e Cypress
+
+```bash
+$npm run start
 $ yarn cypress open
 ```
 
 ## Github
 
 https://github.com/lyndontavares/react-cypress-todo-list
-
-##
