@@ -2,6 +2,8 @@
 
 Exemplo de aplicação React com Cypress.io
 
+![](assets/tests.PNG)
+
 ## Instalação
 
 ```bash
